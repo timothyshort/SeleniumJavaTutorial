@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SDET-Training-TestNG-SUITE]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.sdettraining.Introduction.TestNGTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestNGTest1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sdettraining.Introduction.TestNGTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [SDET-Training-TestNG-SUITE] -->

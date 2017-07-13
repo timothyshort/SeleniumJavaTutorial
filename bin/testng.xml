@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SDET-Training-TestNG-SUITE" parallel="false">
+
+  <test name="Test1">
+    <classes>
+      <class name="com.sdettraining.Introduction.TestNGTest"/>
+    </classes>
+  </test>
+  
+  <test name="Test2">
+    <classes>
+      <class name="com.sdettraining.Introduction.TestNGAnotherTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
